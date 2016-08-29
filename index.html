@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>React Tutorials</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://raw.githubusercontent.com/stephenhutchings/typicons.font/master/src/font/typicons.min.css">
+		<script src="assets/js/skycons.js"></script>
+	</head>
+	<body>
+
+		<h1 id='title'>WeatherApp (React)</h1>
+		<div id="wrapper">
+			<div id="app"></div>
+			<div id="result">
+				<header id='header_card'>
+					<div id="cover"></div>
+					<canvas id="weather-icon" width="98" height="98"></canvas>
+				</header>
+				<footer id='app_body'></footer>
+			</div>
+		</div>
+
+		<div></div>
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="assets/js/jquery.cookie.js"></script>
+		<script src="assets/js/react/react.js"></script>
+		<script src="assets/js/react/react-dom.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+		<script type="text/babel" src="assets/js/app.js"></script>
+		<script type="text/javascript">
+			var icons = new Skycons({
+				"monochrome": false,
+				"colors" : {
+					main    : "#404146",
+		            moon    : "#353545",
+		            fog     : "#d9e1e8",
+		            fogbank : "#c9d6de",
+		            cloud   : "#6E7783",
+		            snow    : "#d9e1e8",
+		            leaf    : "#8CD790",
+		            rain    : "#a5dff9",
+		            sun     : "#FFBC42"
+				}
+			});
+		</script>
+
+	</body>
+</html>

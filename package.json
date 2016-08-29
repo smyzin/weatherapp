@@ -1,0 +1,14 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React WeatherApp",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sergei Myzin",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
